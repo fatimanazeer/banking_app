@@ -1,6 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
 import BankCard from "./BankCard"
+
+
 const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
     return (
         <aside className="right-sidebar">
